@@ -1,0 +1,59 @@
+port url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  margin: 1;
+  font-family: 'Martel', sans-serif;
+  flex-wrap: wrap;
+}
+nav{
+  background-color: #eee;
+  max-width: 250px;
+  height: 141vh;
+  border-right: 6px solid #aaa;
+}
+
+nav a{
+  text-decoration: none;
+  border-bottom: 1px solid #111;
+  color: #000;
+  display: block;
+  padding: 20px;
+  
+}
+@media(max-width:600px){
+  body{
+    flex-direction:column;
+  }
+  nav{
+    background-color: #eee;
+    height: 300px;
+    width: 100%;
+    border-right: none;
+    overflow-y: scroll;
+    border-top:6px solid #777
+  }
+  
+}
+main{
+  flex: 1;
+  overflow-y:scroll;
+  background-color: white;
+  height: auto;
+  width: 100%
+}
+section{
+  padding: 10px;
+}
+header{
+  font-size: 20px;
+  font-weight: 900;
+}
+pre{
+  background-color: #eee;
+  width: 100%;
+    
+    
+}
